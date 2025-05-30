@@ -62,8 +62,16 @@ Untuk menjalankan kode dan mereproduksi hasil yang dilaporkan:
 
 ## Struktur Folder yang Direkomendasikan untuk Reproducibilitas
 ```
-/NamaFolderProyekAnda
+/NamaFolderProyek
 |-- README.md
 |-- VisKom_CitraNotaPembayaran.ipynb  
-|-- contoh_nota_untuk_reproduksi.jpg  <-- (Sertakan contoh citra yang digunakan di laporan)
+|-- Image
+    |-- blur.jpg
+    |-- blur1.jpg
+    |-- blur2.jpg
+    |-- gelap.jpg
+    |-- gelap1.jpg
+    |-- jelas.jpg
+|-- output
+    |-- output.png  
 ```
